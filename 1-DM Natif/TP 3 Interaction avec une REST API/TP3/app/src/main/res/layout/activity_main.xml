@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/editTextSearch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text=""
+        android:hint="Saisir un mot clé"
+        android:layout_margin="10dp"/>
+    <EditText
+        android:id="@+id/editTextSearchDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Saisir la date de début"
+        android:text=""
+        android:layout_margin="10dp"/>
+
+    <Button
+        android:id="@+id/buttonSearch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Search"
+        android:layout_margin="10dp"/>
+
+    <ListView
+        android:id="@+id/listViewNews"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</LinearLayout>

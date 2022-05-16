@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Calculatrice</string>
+    <string name="str_info">Veuillez saisir votre opération : </string>
+</resources>

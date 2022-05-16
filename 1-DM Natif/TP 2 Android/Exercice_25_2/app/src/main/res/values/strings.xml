@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">TP1</string>
+    <string name="txtView">Calculatrice</string>
+    <string name="txthistorique">Historique</string>
+</resources>

@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <TextView
+        style="@style/GreenText.Large"
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:gravity="center"
+        android:text="@string/txtView" />
+    <EditText
+        android:id="@+id/EditText01"
+        android:layout_width="421dp"
+        android:layout_height="wrap_content"
+        android:cursorVisible="false"
+        android:editable="false"
+        android:textSize="40px" />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:insetLeft="10dp"
+            android:insetRight="10dp"
+            android:text="1" />
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:insetLeft="10dp"
+            android:insetRight="10dp"
+            android:text="2" />
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:insetLeft="10dp"
+            android:insetRight="10dp"
+            android:text="3" />
+        <Button
+            android:id="@+id/buttonPlus"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:insetLeft="10dp"
+            android:insetRight="10dp"
+            android:text="+" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="99dp"
+            android:layout_height="wrap_content"
+            android:insetLeft="10dp"
+            android:text="4" />
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="98dp"
+            android:layout_height="wrap_content"
+            android:insetLeft="15dp"
+            android:text="5" />
+        <Button
+            android:id="@+id/button6"
+            android:layout_width="108dp"
+            android:layout_height="wrap_content"
+            android:insetLeft="15dp"
+            android:insetRight="10dp"
+            android:text="6" />
+        <Button
+            android:id="@+id/buttonMoins"
+            android:layout_width="101dp"
+            android:layout_height="wrap_content"
+            android:insetLeft="15dp"
+            android:text="-" />
+    </LinearLayout>
+    <LinearLayout
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:insetLeft="10dp"
+        android:insetRight="10dp"
+        android:text="7" />
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:insetLeft="10dp"
+        android:insetRight="10dp"
+        android:text="8" />
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:insetLeft="10dp"
+        android:insetRight="10dp"
+        android:text="9" />
+    <Button
+        android:id="@+id/buttonMultiplier"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:insetLeft="10dp"
+        android:insetRight="10dp"
+            android:text="*" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+    <Button
+        android:id="@+id/button0"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:insetLeft="10dp"
+        android:insetRight="10dp"
+        android:text="0" />
+    <Button
+        android:id="@+id/buttonPoint"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:insetLeft="10dp"
+        android:insetRight="10dp"
+        android:text="." />
+    <Button
+        android:id="@+id/buttonC"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:insetLeft="10dp"
+        android:insetRight="10dp"
+        android:text="C" />
+    <Button
+        android:id="@+id/buttonDivision"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:insetLeft="10dp"
+        android:insetRight="10dp"
+        android:text="/" />
+    </LinearLayout>
+    <Button
+        android:id="@+id/buttonEgal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:insetLeft="10dp"
+        android:insetRight="10dp"
+        android:text="=" />
+    <TextView
+        style="@style/GreenText.Large"
+        android:gravity="center"
+        android:id="@+id/txthistorique"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/txthistorique" />
+    <ListView
+        style="@style/Colorbackround"
+        android:id="@+id/listview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</LinearLayout>

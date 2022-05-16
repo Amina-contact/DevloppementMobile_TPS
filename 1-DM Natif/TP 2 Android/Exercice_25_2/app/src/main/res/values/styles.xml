@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="GreenText" parent="TextAppearance.AppCompat">
+        <item name="android:textColor">#0640A7</item>
+        <item name="android:layout_marginTop"> 8dip </item>
+        <item name="android:layout_marginBottom"> 5dip </item>
+    </style>
+    <style name="GreenText.Large">
+        <item name="android:textSize">25dp</item>
+    </style>
+    <style name="Colorbackround">
+        <item name="android:background">#E1E1E4</item>
+    </style>
+</resources>

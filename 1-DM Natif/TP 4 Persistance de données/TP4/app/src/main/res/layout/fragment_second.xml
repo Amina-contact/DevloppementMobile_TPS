@@ -1,0 +1,103 @@
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:padding="10dp">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="14dp">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:minHeight="30dp"
+                android:text="Nom" />
+
+            <EditText
+                android:id="@+id/editTextNom"
+                android:layout_width="262dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:ems="10"
+                android:inputType="textPersonName"
+
+                android:minHeight="30dp"
+                android:text="" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="14dp">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:minHeight="30dp"
+                android:text="Prenom" />
+
+            <EditText
+                android:id="@+id/editTextPrenom"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:minHeight="30dp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="14dp">
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:minHeight="30dp"
+                android:text="Age" />
+
+            <EditText
+                android:id="@+id/editTextAge"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:minHeight="30dp" />
+        </TableRow>
+    </TableLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/buttonSave"
+            android:layout_width="356dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_marginStart="-400dp"
+            android:layout_marginLeft="-400dp"
+            android:layout_marginTop="@dimen/material_emphasis_disabled"
+            android:layout_marginEnd="200dp"
+            android:layout_marginRight="400dp"
+            android:layout_marginBottom="20dp"
+            android:text="Enregistrer" />
+    </LinearLayout>
+</LinearLayout>
